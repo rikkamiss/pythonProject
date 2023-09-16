@@ -4,7 +4,7 @@ import random
 money = 10000
 
 
-#for循环对员工发放工资
+# for循环对员工发放工资
 for i in range(1, 21):
     num = random.randint(1, 10)
     if num < 5:
